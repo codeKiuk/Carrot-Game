@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+img[alt="background"] {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+/*  Play Button, Timer and Carrot Count*/
+.information {
+  text-align: center;
+  transform: translateY(5vh);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.play {
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(235, 235, 192);
+  padding: 0;
+
+  outline: none;
+}
+.play:hover {
+  transform: scale(1.2);
+  transition: transform 300ms ease-in;
+}
+.play .fa-play {
+  font-size: 270%;
+  transform: translateX(8%);
+  cursor: pointer;
+}
+.play .fa-stop {
+  font-size: 270%;
+  cursor: pointer;
+}
+
+div.timer {
+  background-color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+  margin: 2vh 0;
+  font-size: 2.2rem;
+}
+
+div.carrot_count {
+  background-color: tomato;
+  color: white;
+
+  border: 3px solid black;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  font-size: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Game Field */
+.game {
+  transform: translateY(150px);
+  width: 100%;
+  height: 50vh;
+}
+
+img[alt="carrot"] {
+  position: absolute;
+}
+div.carrotImg:hover img[alt="carrot"] {
+  transform: scale(1.2);
+}
+
+img[alt="bug"] {
+  position: absolute;
+}
+div.bugImg:hover img[alt="bug"] {
+  transform: scale(1.2);
+}
+
+/* Alert Section */
+div.alert {
+  visibility: hidden;
+
+  background-color: grey;
+  width: 400px;
+  height: 150px;
+  z-index: 100;
+
+  border-radius: 30px;
+  transform: translateY(-100%);
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: xx-large;
+}
+
+.replay {
+  border: 3px solid black;
+  border-radius: 15px;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(235, 235, 192);
+  padding: 0;
+  margin-bottom: 10px;
+
+  outline: none;
+}
+
+.replay:hover {
+  transform: scale(1.2);
+  transition: transform 300ms ease-in;
+}
+
+.replay .fa-redo-alt {
+  font-size: 270%;
+  cursor: pointer;
+}
