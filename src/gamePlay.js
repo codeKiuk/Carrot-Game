@@ -74,7 +74,7 @@ class Game {
         this.timeOutID = window.setTimeout(() => {
             this.playBtn.innerHTML = `<i class="fas fa-play"></i>`;
             this.finish('You Lose!');
-        }, this.duration*1000);
+        }, this.tmp*1000);
     }
     
     finish(text) {
