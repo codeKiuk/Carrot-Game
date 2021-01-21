@@ -5,17 +5,15 @@ with vanila JS
 
 ### 1. 게임 시작
 
+화면 상단 Play Button을 누르면 당근과 벌레가 필드에 랜덤하게 배치되고 타이머와 남은 당근 개수가 세팅됩니다. 
 ![gameStartPage](./readme/Start1.png)
 ![gameStartPage](./readme/Start2.png)
 
-화면 상단 Play Button을 누르면 당근과 벌레가 필드에 랜덤하게 배치되고 타이머와 남은 당근 개수가 세팅됩니다. 
-
 ### 2. Restart
 
+게임 진행중 상단 멈춤 버튼을 누르면 리플레이 버튼이 나오는데, 이 버튼을 누르면 게임이 다시 시작됩니다.
 ![gameRestartPage](./readme/Replay1.png)
 ![gameRestartPage](./readme/Replay2.png)
-
-게임 진행중 상단 멈춤 버튼으 누르면 리플레이 버튼이 나오는데, 이 버튼을 누르면 게임이 다시 시작됩니다.
 
 ### 3. 게임 끝!
 
